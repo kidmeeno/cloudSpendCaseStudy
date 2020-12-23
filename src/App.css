@@ -6,6 +6,52 @@
   height: 40vmin;
   pointer-events: none;
 }
+.custom_card_header{
+  /* background: red; */
+  height: 106px;
+  width: 100%;
+}
+
+.cursor_pointer{
+  cursor: pointer;
+}
+.wrapper{
+  width: 94vw;
+}
+.remove_icon_style{
+  width: 13px;
+}
+.custom_sub_nav_text{
+  font-size: 14px;
+  padding-left: 45px;
+}
+.card_custom_body{
+  /* font-size: 14px; */
+}
+.aside_nav_text{
+  font-weight: 600;
+}
+.space_out_icon{
+  margin-right: 10px;
+}
+.custom_circular_progressbar{
+  width: 40px !important;
+}
+
+.icon_custom_style{
+  width: 50px;
+  height: 50px;
+}
+.cancel_icon{
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+}
+.cancel_icon:hover{
+  transition: all;
+  /* transform: rotate(360deg); */
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
